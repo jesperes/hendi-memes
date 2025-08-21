@@ -1,0 +1,9 @@
+{
+    "name": "hendi-memes",
+    "version": "0.0.1",
+    "title": "Mikehendi Meme Mod",
+    "author": "ObsoleteAlien",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0", "?space-age"],
+    "description": "This meme adds a number of funny things related to what happens on Michael Hendricks live streams"
+  }
