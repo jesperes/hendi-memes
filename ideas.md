@@ -5,6 +5,8 @@ Not sure if all of these are possible.
 * Remove fast inserters
 * Make train only accept wood as fuel
 * Remove train signals
+
+
 * Demolisher remains are unmineable
 * Crashed spaceship is unmineable
 * Landfill chunks absorb pollution

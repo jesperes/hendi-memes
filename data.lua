@@ -50,3 +50,8 @@ for type_name, prototypes in pairs(data.raw) do
         end
     end
 end
+
+
+-- Remove train and chain signals from the automated rail transportation technology.
+table.remove(data.raw.technology["automated-rail-transportation"].effects, 2)
+table.remove(data.raw.technology["automated-rail-transportation"].effects, 2)
