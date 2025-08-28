@@ -5,10 +5,10 @@
 * Rail and chain signals have been removed
 * Demolisher remains are unmineable
 * Crashed spaceship is unmineable
+* Landfill chunks absorb pollution
 
 # Ideas, not sure if these are doable
 
-* Landfill chunks absorb pollution
 * Power poles cannot be placed adjacent to each other
 * Turrets (gun-, laser-, flame-, and artillery) will explode after 30 minutes to discourage making base defense
 * Randomly start researching another level of "You got sidetracked" which cannot be skipped
