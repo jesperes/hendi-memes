@@ -1,10 +1,7 @@
 # Hendi-memes
 
-This is a Factorio mod with some memes from Michael Hendrick's Factorio live-streams.
-
-Youtube channel: https://www.youtube.com/@MichaelHendriks
-
-## Features
+A Factorio mod which gives the player the authentic Michael Hendrick's
+experience.
 
 * Fast inserters technology is locked behind cryogenic science
 * Locomotives only accept wood as fuel
@@ -12,3 +9,6 @@ Youtube channel: https://www.youtube.com/@MichaelHendriks
 * Demolisher remains are unmineable
 * Crashed spaceship is unmineable
 * Landfill chunks absorb pollution
+
+For those of you who do not know Michael Hendricks, check out his youtube
+channel: https://www.youtube.com/@MichaelHendriks
