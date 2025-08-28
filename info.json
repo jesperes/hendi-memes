@@ -5,5 +5,5 @@
     "author": "ObsoleteAlien",
     "factorio_version": "2.0",
     "dependencies": ["base >= 2.0", "?space-age"],
-    "description": "This meme adds a number of funny things related to what happens on Michael Hendricks live streams"
+    "description": "For the authentic mikehendi experience"
   }
