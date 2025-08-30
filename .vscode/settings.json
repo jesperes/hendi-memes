@@ -3,6 +3,7 @@
         "data",
         "script",
         "defines",
-        "game"
+        "game",
+        "log"
     ]
 }

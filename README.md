@@ -9,6 +9,10 @@ experience.
 * Demolisher remains are unmineable
 * Crashed spaceship is unmineable
 * Landfill chunks absorb pollution
+* 1 small worm "Little Johnny" is placed at a random location near spawn. This
+  worm is indestructible.
+* 1 tree "The Holy Tree of Wisdom" is placed at a random location near spawn. This
+  tree is indestructible.
 
 For those of you who do not know Michael Hendricks, check out his youtube
 channel: https://www.youtube.com/@MichaelHendriks
