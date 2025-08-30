@@ -10,4 +10,17 @@ function utils.get_random_position(min_radius, max_radius)
     return position
 end
 
+function utils.print_members(obj, indent)
+    indent = indent or ""
+    for k, v in pairs(obj) do
+        if type(v) == "table" then
+            print(indent .. k .. ": {")
+            utils.print_members(v, indent .. "  ")
+            print(indent .. "}")
+        else
+            print(indent .. k .. ": " .. tostring(v))
+        end
+    end
+end
+
 return utils

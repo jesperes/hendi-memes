@@ -1,29 +1,27 @@
+local holy_tree_of_wisdom = {}
 local utils = require("lib/utils")
-local holy_tree_of_wisdom = nil
+local tree_name = "tree-04"
 
--- Place the "holy tree of wisdom" at a random location close to spawn.
-script.on_event(defines.events.on_player_created, function(event)
-    local surface = game.surfaces['nauvis']
-    local position = utils.get_random_position(50, 100)
-    position = { x = 10, y = 10 }
+-- Place holy tree of wisdom in the starting area
+function holy_tree_of_wisdom.place(surface, min_radius, max_radius)
+    local position = utils.get_random_position(min_radius, max_radius)
     local tree = surface.create_entity {
-      name = "tree-04",
+      name = tree_name,
       position = position
     }
     holy_tree_of_wisdom = tree
+
+    game.players[1].force.add_chart_tag(surface, {
+        position = position,
+        icon = { type = "entity", name = tree_name },
+        text = "The Holy Tree of Wisdom"
+    })
 
     -- Make the tree indestructible and unminable
     if tree and tree.valid then
         tree.destructible = false
         tree.minable = false
     end
-end)
+end
 
--- TODO make it immune to pollution
--- script.on_event(defines.events.on_tick, function(event)
---     if math.fmod(event.tick, 60) == 0 then
---         if holy_tree_of_wisdom then
---             -- log("Progress: " .. holy_tree_of_wisdom.progress)
---         end
---     end
--- end)
+return holy_tree_of_wisdom
