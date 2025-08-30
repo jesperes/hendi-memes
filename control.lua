@@ -1,0 +1,1 @@
+require("lib/starting_area_johnny")
