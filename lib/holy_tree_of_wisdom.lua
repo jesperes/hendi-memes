@@ -17,11 +17,20 @@ function holy_tree_of_wisdom.place(surface, min_radius, max_radius)
         text = "The Holy Tree of Wisdom"
     })
 
+
     -- Make the tree indestructible and unminable
     if tree and tree.valid then
         tree.destructible = false
         tree.minable = false
     end
+
+    -- Make the tree immune to pollution damage
+    script.on_nth_tick(60, function()
+        if tree.valid then
+            tree.tree_stage_index = 1
+            tree.tree_gray_stage_index = 0
+        end
+    end)
 end
 
 return holy_tree_of_wisdom
