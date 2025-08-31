@@ -17,7 +17,6 @@ function holy_tree_of_wisdom.place(surface, min_radius, max_radius)
         text = "The Holy Tree of Wisdom"
     })
 
-
     -- Make the tree indestructible and unminable
     if tree and tree.valid then
         tree.destructible = false
